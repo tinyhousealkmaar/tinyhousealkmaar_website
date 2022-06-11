@@ -1,7 +1,7 @@
 <template>
-  <div>
-    <div class="container mx-auto relative">
-      <site-header-image />
+  <div class="relative">
+    <div class="container mx-auto">
+      <site-header bg-image />
 
       <Nuxt />
     </div>

@@ -1,6 +1,6 @@
 <template>
-  <div>
-    <div class="container mx-auto relative">
+  <div class="relative">
+    <div class="container mx-auto">
       <site-header />
 
       <Nuxt />

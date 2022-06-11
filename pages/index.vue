@@ -7,7 +7,7 @@
     </div>
     <Grid>
       <grid-main-column>
-        <div class="bg-white sm:mt-[calc(100vh-285px)] relative">
+        <div class="bg-white sm:mt-[28vw] relative">
           <Prose>
             <h1 class="z-10">Welkom bij Tiny House Alkmaar</h1>
 
