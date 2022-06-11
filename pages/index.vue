@@ -3,7 +3,7 @@
     <div
       class="absolute h-screen w-screen top-0 left-0 -z-10 overflow-hidden max-w-full"
     >
-      <img src="~/static/images/THA 1.jpg" />
+      <nuxt-picture src="/images/THA 1.jpg" />
     </div>
     <Grid>
       <grid-main-column>
