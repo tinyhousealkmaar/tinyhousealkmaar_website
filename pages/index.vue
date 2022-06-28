@@ -7,7 +7,7 @@
       }"
     />
 
-    <Grid>
+    <Grid scale>
       <grid-main-column>
         <div class="bg-white sm:mt-[28vw] relative">
           <Prose>

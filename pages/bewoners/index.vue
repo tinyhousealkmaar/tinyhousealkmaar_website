@@ -7,8 +7,8 @@
 
           <p></p>
         </Prose>
-        <div class="pl-8">
-          <ul class="grid grid-cols-2 gap-4">
+        <div class="pl-4 pr-4 sm:pl-8 max-w-[630px]">
+          <ul class="grid sm:grid-cols-2 gap-4">
             <template v-for="(bewoner, index) in bewoners">
               <li :key="index">
                 <nuxt-link :to="bewoner.page">
