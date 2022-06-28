@@ -2,7 +2,9 @@
   <div>
     <div
       class="absolute h-screen w-screen top-0 left-0 -z-10 overflow-hidden max-w-full bg-image"
-      :style="backgroundStyles"
+      :style="{
+        backgroundImage: 'url(/images/THA_1.klein.jpg)',
+      }"
     />
 
     <Grid>
@@ -39,14 +41,6 @@ import Vue from "vue";
 
 export default Vue.extend({
   layout: "index",
-  computed: {
-    backgroundStyles() {
-      const imgUrl = this.$img("/images/THA 1.jpg", { width: 1000 });
-      return {
-        backgroundImage: `url('${imgUrl}')`,
-      };
-    },
-  },
   name: "IndexPage",
   head() {
     return {
