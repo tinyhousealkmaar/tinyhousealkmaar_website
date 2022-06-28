@@ -3,7 +3,7 @@
     <Grid>
       <GridMainColumn>
         <Prose>
-          <h1>Manfred, Carolien en Lola</h1>
+          <h1>Manfred, Caroline en Lola</h1>
 
           <nuxt-img
             src="/images/manfred-caroline-lola.jpg"
@@ -46,7 +46,7 @@
 export default {
   head() {
     return {
-      title: "Manfred, Carolien en Lola | Tiny House Alkmaar",
+      title: "Manfred, Caroline en Lola | Tiny House Alkmaar",
     };
   },
 };
