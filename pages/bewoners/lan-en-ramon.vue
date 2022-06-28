@@ -5,6 +5,12 @@
         <Prose>
           <h1>Lan en Ramon</h1>
 
+          <nuxt-img
+            src="/images/lan-ramon.jpg"
+            width="1132"
+            fit="cover"
+          ></nuxt-img>
+
           <p>
             Als zesjarige Vietnamese bootvluchteling kwam ik 34 jaar geleden met
             mijn familie in Alkmaar wonen om hier aan een nieuwe toekomst te
@@ -37,11 +43,11 @@
 </template>
 
 <script>
-  export default {
-    head() {
-      return {
-        title: 'Lan & Ramon | Tiny House Alkmaar',
-      }
-    }
-  }
+export default {
+  head() {
+    return {
+      title: "Lan & Ramon | Tiny House Alkmaar",
+    };
+  },
+};
 </script>

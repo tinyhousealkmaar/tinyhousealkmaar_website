@@ -5,6 +5,8 @@
         <Prose>
           <h1>Jacob</h1>
 
+          <nuxt-img src="/images/jacob.jpg" width="1132" fit="cover"></nuxt-img>
+
           <p>
             Hey, Ik ben Jacob. Ik ben geboren en getogen in regio Alkmaar en ben
             blij dat ik in deze regio kan blijven wonen.
@@ -49,11 +51,11 @@
 </template>
 
 <script>
-  export default {
-    head() {
-      return {
-        title: 'Jacob | Tiny House Alkmaar',
-      }
-    }
-  }
+export default {
+  head() {
+    return {
+      title: "Jacob | Tiny House Alkmaar",
+    };
+  },
+};
 </script>

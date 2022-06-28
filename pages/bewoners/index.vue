@@ -5,16 +5,24 @@
         <Prose>
           <h1>Bewoners</h1>
 
-          <p>Op ons terrein staan momenteel vijf huisjes</p>
-
-          <ul>
+          <p></p>
+        </Prose>
+        <div class="pl-8">
+          <ul class="grid grid-cols-2 gap-4">
             <template v-for="(bewoner, index) in bewoners">
               <li :key="index">
-                <nuxt-link :to="bewoner.page">{{ bewoner.text }}</nuxt-link>
+                <nuxt-link :to="bewoner.page">
+                  <nuxt-img
+                    :src="bewoner.image"
+                    width="550"
+                    height="368"
+                  ></nuxt-img
+                  >{{ bewoner.text }}</nuxt-link
+                >
               </li>
             </template>
           </ul>
-        </Prose>
+        </div>
       </GridMainColumn>
     </Grid>
   </div>
@@ -25,14 +33,31 @@ export default {
   data() {
     return {
       bewoners: [
-        { text: "Lan & Ramon", page: "/bewoners/lan-en-ramon" },
         {
-          text: "Manfred, Carolien & Lola",
-          page: "/bewoners/manfred-carolien-en-lola",
+          text: "Lan & Ramon",
+          page: "/bewoners/lan-en-ramon",
+          image: "/images/lan-ramon.jpg",
         },
-        { text: "Anniek", page: { name: "bewoners-anniek" } },
-        { text: "Jacob", page: "/bewoners/jacob" },
-        { text: "Lennart & Vicky", page: "/bewoners/lennart-en-vicky" },
+        {
+          text: "Manfred, Caroline & Lola",
+          page: "/bewoners/manfred-caroline-en-lola",
+          image: "/images/manfred-caroline-lola.jpg",
+        },
+        {
+          text: "Anniek",
+          page: { name: "bewoners-anniek" },
+          image: "/images/anniek.jpg",
+        },
+        {
+          text: "Jacob",
+          page: "/bewoners/jacob",
+          image: "/images/jacob.jpg",
+        },
+        {
+          text: "Lennart & Vicky",
+          page: "/bewoners/lennart-en-vicky",
+          image: "/images/lennart-vicky.jpg",
+        },
       ],
     };
   },

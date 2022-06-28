@@ -5,6 +5,12 @@
         <Prose>
           <h1>Anniek</h1>
 
+          <nuxt-img
+            src="/images/anniek.jpg"
+            width="1132"
+            fit="cover"
+          ></nuxt-img>
+
           <p>
             Anniek Reehoorn woont samen met haar Griekse adoptiehond Tobi in een
             zelfgebouwd Tiny House. Het idee voor een tiny house ontstond toen
@@ -38,11 +44,11 @@
 </template>
 
 <script>
-  export default {
-    head() {
-      return {
-        title: 'Anniek | Tiny House Alkmaar',
-      }
-    }
-  }
+export default {
+  head() {
+    return {
+      title: "Anniek | Tiny House Alkmaar",
+    };
+  },
+};
 </script>

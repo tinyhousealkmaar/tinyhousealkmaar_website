@@ -5,6 +5,12 @@
         <Prose>
           <h1>Lennart en Vicky</h1>
 
+          <nuxt-img
+            src="/images/lennart-vicky.jpg"
+            width="1132"
+            fit="cover"
+          ></nuxt-img>
+
           <p>...</p>
         </Prose>
       </GridMainColumn>
@@ -13,11 +19,11 @@
 </template>
 
 <script>
-  export default {
-    head() {
-      return {
-        title: 'Lennart & Vicky | Tiny House Alkmaar',
-      }
-    }
-  }
+export default {
+  head() {
+    return {
+      title: "Lennart & Vicky | Tiny House Alkmaar",
+    };
+  },
+};
 </script>

@@ -5,6 +5,12 @@
         <Prose>
           <h1>Manfred, Carolien en Lola</h1>
 
+          <nuxt-img
+            src="/images/manfred-caroline-lola.jpg"
+            width="1132"
+            fit="cover"
+          ></nuxt-img>
+
           <p>
             Wie zijn wij? Hoi wij zijn Manfred, Caroline en Lola Wit. Caroline
             komt uit Antwerpen en Manfred is geboren in Ermelo. Wij hebben
