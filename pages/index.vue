@@ -1,10 +1,10 @@
 <template>
   <div>
     <div
-      class="absolute h-screen w-screen top-0 left-0 -z-10 overflow-hidden max-w-full"
-    >
-      <nuxt-picture src="/images/THA 1.jpg" quality="80" />
-    </div>
+      class="absolute h-screen w-screen top-0 left-0 -z-10 overflow-hidden max-w-full bg-image"
+      :style="backgroundStyles"
+    />
+
     <Grid>
       <grid-main-column>
         <div class="bg-white sm:mt-[28vw] relative">
@@ -39,6 +39,14 @@ import Vue from "vue";
 
 export default Vue.extend({
   layout: "index",
+  computed: {
+    backgroundStyles() {
+      const imgUrl = this.$img("/images/THA 1.jpg", { width: 1000 });
+      return {
+        backgroundImage: `url('${imgUrl}')`,
+      };
+    },
+  },
   name: "IndexPage",
   head() {
     return {
@@ -47,3 +55,9 @@ export default Vue.extend({
   },
 });
 </script>
+
+<style lang="scss" scoped>
+.bg-image {
+  background-size: cover;
+}
+</style>

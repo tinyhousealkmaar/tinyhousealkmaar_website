@@ -54,6 +54,7 @@
               <li :key="index" class="p-2">
                 <nuxt-link
                   class="text-xl text-black font-semibold"
+                  @click.native="closeMenu"
                   :to="item.page"
                   >{{ item.text }}</nuxt-link
                 >
@@ -118,6 +119,11 @@ export default {
         { text: "Contact", page: "/contact" },
       ],
     };
+  },
+  methods: {
+    closeMenu() {
+      this.showMenu = false;
+    },
   },
 };
 </script>
