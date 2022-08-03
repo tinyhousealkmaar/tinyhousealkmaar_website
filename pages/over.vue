@@ -4,35 +4,28 @@
       <GridMainColumn>
         <Prose>
           <h1>Over ons</h1>
-          <p class="lead">
-            We hebben ons tot doel gesteld om onze filosofie te delen. Educatie
-            samenwerking voorlichting
-          </p>
 
-          <p class="lead">
+          <p>
             Wooncoöperatie Tiny House Alkmaar is een coöperatief
             samenwerkingsverband van Tiny House liefhebbers uit de regio
             Alkmaar. Het is ons streven om klein, milieuvriendelijk en
-            betaalbaar wonen mogelijk te maken in de gemeente Alkmaar, te
-            beginnen met een pilot project aan de Helderseweg 28 in Alkmaar.
+            betaalbaar wonen mogelijk te maken in de gemeente Alkmaar. We willen
+            mensen inspireren om duurzaam, avontuurlijk en sociaal te wonen,
+            door te laten zien dat het ook anders kan!
           </p>
-
           <p>
-            Wooncoöperatie Tiny House Alkmaar is een coöperatief
-            samenwerkings&shy;verband van Tiny House liefhebbers uit de regio
-            Alkmaar. Het is ons streven om klein, milieuvriendelijk en
-            betaalbaar wonen mogelijk te maken in de gemeente Alkmaar, te
-            beginnen met een pilot project aan de Helderseweg 28 in Alkmaar.
+            Van gemeente Alkmaar hebben we toestemming gekregen om op het
+            terrein aan de Helderseweg vijf zelfvoorzienende Tiny Houses neer te
+            zetten. Het is een pilot waarbij we voor een periode van vijf jaar
+            kunnen experimenteren met deze nieuwe woonvorm.
           </p>
-
           <p>
-            Van de gemeente hebben we toestemming gekregen om op het terrein aan
-            de Helderseweg met vijf zelfvoorzienende Tiny Houses, voor een
-            periode van vijf jaar te experimenteren met deze vernieuwende
-            woonvorm. Op deze website kun je lezen wie we zijn, wat onze
-            beweegredenen zijn en met wie wij samenwerken in dit project.
-            Daarnaast vind je hier het laatste nieuws en aankondigingen van
-            activiteiten zoals open dagen.
+            We wonen hier met <a href="/bewoners">vijf huishoudens</a>. We
+            vormen een hechte groep. We doen veel leuke activiteiten samen, maar
+            vinden vrijheid en privacy ook erg belangrijk dus geven elkaar de
+            ruimte. Iedereen heeft eigen taken in de community, passend bij haar
+            of zijn talenten en interesses. Zo helpen we elkaar en hebben veel
+            aan elkaar.
           </p>
         </Prose>
       </GridMainColumn>
