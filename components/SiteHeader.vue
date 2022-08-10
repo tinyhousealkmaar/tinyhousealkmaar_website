@@ -32,9 +32,21 @@
       </div>
 
       <div
-        class="menu xl:hidden bg-white w-full absolute top-0 left-0 z-10 p-8 border-b-[#DBEEE1] border-b-4"
+        class="
+          menu
+          xl:hidden
+          bg-white
+          w-full
+          absolute
+          top-0
+          left-0
+          z-10
+          p-8
+          border-b-[#DBEEE1] border-b-4
+        "
         :class="{ visible: showMenu }"
       >
+        <ribbon />
         <div class="container mx-auto">
           <svg
             xmlns="http://www.w3.org/2000/svg"
@@ -69,7 +81,14 @@
           <template v-for="(item, index) in menu">
             <li :key="index">
               <nuxt-link
-                class="p-2 px-3 hover:bg-slate-900/50 rounded-md text-lg font-semibold"
+                class="
+                  p-2
+                  px-3
+                  hover:bg-slate-900/50
+                  rounded-md
+                  text-lg
+                  font-semibold
+                "
                 :class="{ 'text-white': bgImage == true }"
                 :to="item.page"
                 >{{ item.text }}</nuxt-link
