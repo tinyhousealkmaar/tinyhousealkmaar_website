@@ -135,6 +135,7 @@ export default {
         { text: "Bewoners", page: "/bewoners" },
         { text: "Veelgestelde vragen", page: "/veelgestelde-vragen" },
         { text: "Open dagen", page: "/open-dagen" },
+        { text: "Pers", page: "/pers" },
         { text: "Contact", page: "/contact" },
       ],
     };

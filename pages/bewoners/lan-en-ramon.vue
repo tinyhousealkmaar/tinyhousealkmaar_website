@@ -12,29 +12,14 @@
           ></nuxt-img>
 
           <p>
-            Als zesjarige Vietnamese bootvluchteling kwam ik 34 jaar geleden met
-            mijn familie in Alkmaar wonen om hier aan een nieuwe toekomst te
-            beginnen. Een paar jaar geleden triggerde een tv programma mijn
-            interesse voor tiny houses, en dit wil ik ook dacht ik! Voor mij
-            betekent het wonen in een tiny house het hanteren van een leefstijl
-            waarbij je weloverwogen keuzes maakt gericht op eenvoudig en
-            duurzaam wonen.
-          </p>
-
-          <p>
-            Bij het ontwerpen van mijn tiny house merkte ik op hoe snel ik
-            geneigd was om in je oude gedachtepatroon te vallen. Kan het meer,
-            luxer en mooier? Dit proces maakt me zo bewust om stil te staan bij
-            wat je echt nodig hebt om verspilling te beperken, beter voor het
-            milieu zorgen en het vinden van een evenwicht tussen werk en vrije
-            tijd.
-          </p>
-
-          <p>
-            Het sociale aspect van het leven in een tiny house in een kleine
-            gemeenschap met mensen die dezelfde leef- en woonvisie nastreven,
-            lijkt me een mooie gedachte. Het streven is om volgend jaar in mijn
-            off-grid tiny house te wonen!
+            Wij zijn Ramon en Lan en wonen sinds 2018 in deze community op deze
+            prachtige locatie in Alkmaar. Onze motivatie om in een tiny house te
+            wonen is in eerste instantie meer in het groen te wonen en vanuit
+            een off-grid levenswijze een kleinere impact proberen te maken op de
+            natuur. Daarnaast is het onze eerste ervaring om in een community te
+            wonen. Een mooie en bijzondere ervaring waarin we geweldige mensen
+            hebben leren kennen en op deze wijze ook een socialer woonomgeving
+            creëren.
           </p>
         </Prose>
       </GridMainColumn>

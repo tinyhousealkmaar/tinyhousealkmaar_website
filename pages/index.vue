@@ -1,7 +1,17 @@
 <template>
   <div>
     <div
-      class="absolute h-screen w-screen top-0 left-0 -z-10 overflow-hidden max-w-full bg-image"
+      class="
+        absolute
+        h-screen
+        w-screen
+        top-0
+        left-0
+        -z-10
+        overflow-hidden
+        max-w-full
+        bg-image
+      "
       :style="{
         backgroundImage: 'url(/images/THA_1.klein.jpg)',
       }"

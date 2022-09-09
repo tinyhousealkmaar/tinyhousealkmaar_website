@@ -24,10 +24,11 @@ export default {
   data() {
     return {
       menu: [
-        { text: "Over", page: "/over-tiny-house-alkmaar" },
+        { text: "Over", page: "/over" },
         { text: "Bewoners", page: "/bewoners" },
         { text: "Veelgestelde vragen", page: "/veelgestelde-vragen" },
         { text: "Open dagen", page: "/open-dagen" },
+        { text: "Pers", page: "/pers" },
         { text: "Contact", page: "/contact" },
       ],
     };
