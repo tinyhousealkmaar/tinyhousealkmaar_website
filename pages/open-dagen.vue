@@ -9,7 +9,8 @@
           <p>
             Om de tiny house spirit te promoten organiseren we regelmatig open
             dagen. De volgende open dag is op
-            <span class="font-bold">zondag 18 september</span>.
+            <span class="font-bold">zondag 18 september</span> van 13:00 tot
+            16:00.
           </p>
 
           <p>
